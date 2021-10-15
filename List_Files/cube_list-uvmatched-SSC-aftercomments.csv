@@ -1,0 +1,10 @@
+# Column 1: short name of cube
+# Column 2: description for database
+# Column 3: units
+# Column 4: extension
+# Column 5: path to files
+co10, CO1-0, K,_co10-K-cube3.fits,/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/3-PdBI-data/data/v3-after-comments/PdBI-SSC-uv-matched-to-CO10-v4_032021/
+hcn10, HCN1-0, K,_hcn10-K.fits,/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/3-PdBI-data/data/v3-after-comments/PdBI-SSC-uv-matched-to-CO10-v4_032021/
+hnc10, HNC1-0, K,_hnc10-K.fits,/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/3-PdBI-data/data/v3-after-comments/PdBI-SSC-uv-matched-to-CO10-v4_032021/
+hco10, HCO1-0, K,_hco10-K.fits,/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/3-PdBI-data/data/v3-after-comments/PdBI-SSC-uv-matched-to-CO10-v4_032021/
+co21, CO2-1, K,_co21-K-cube3.fits,/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/3-PdBI-data/data/v3-after-comments/PdBI-SSC-uv-matched-to-CO10-v4_032021/

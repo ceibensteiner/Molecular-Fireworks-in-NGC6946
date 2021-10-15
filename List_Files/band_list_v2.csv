@@ -1,0 +1,14 @@
+#Column 1: short name of band;;;;
+# Column 2: description for database;;;;
+# Column 3: units;;;;
+# Column 4: extension;;;;
+# Column 5: path to files;;;;
+# Column 6: extension to uc file;;;;
+SFR_ha;SFR_ha;M/yr/pix;_SFR_Ha.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/Project/NGC6946/4-add-data/other/;non_provided
+SFR_15Ghz;SFR_15Ghz;My/yr/pix;_SFR_15.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/Project/NGC6946/4-add-data/other/;non_provided
+SFR_33Ghz;SFR_33Ghz;My/yr/pix;_SFR_33.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/Project/NGC6946/4-add-data/other/;non_provided
+SFR_ha_kpc;SFR_ha_kpc;M/yr/kpc;_SFR_Ha_kpc.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/Project/NGC6946/4-add-data/other/;non_provided
+SFR_15Ghz_kpc;SFR_15Ghz_kpc;My/yr/kpc;_SFR_15_kpc.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/Project/NGC6946/4-add-data/other/;non_provided
+SFR_33Ghz_kpc;SFR_33Ghz_kpc;My/yr/kpc;_SFR_33_kpc.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/Project/NGC6946/4-add-data/other/;non_provided
+SFR_ha_conv;SFR_ha_con;M/yr/kpc;_SFR_Ha_kpc_conv_re.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/Project/NGC6946/4-add-data/other/;non_provided
+SFR_33Ghz_conv;SFR_33Ghz_conv;My/yr/kpc;_SFR_33_kpc_conv_re.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/Project/NGC6946/4-add-data/other/;non_provided

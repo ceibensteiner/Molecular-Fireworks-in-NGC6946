@@ -1,0 +1,8 @@
+# Column 1: short name of cube
+# Column 2: description for database
+# Column 3: units
+# Column 4: extension
+# Column 5: path to files
+hcn10, HCN1-0, K,_hcn10-K_.fits,/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/4-add-data/Cosima_M51/
+hnc10, HNC1-0, K,_hnc10-K_.fits,/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/4-add-data/Cosima_M51/
+hcop10, HCO1-0, K,_hcop10-K_.fits,/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/4-add-data/Cosima_M51/
