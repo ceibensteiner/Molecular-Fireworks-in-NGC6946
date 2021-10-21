@@ -1,7 +1,7 @@
 # column 1: name
 # column 2: R.A. center [decimal degrees J2000]
 # column 3: Dec. center [decimal degrees J2000]
-# column 4: distance [Mpc] #from Anand el al 2018
+# column 4: distance [Mpc] #from McQuinn 2016
 # column 5: uncertainty in distance
 # column 6: inclination [deg] (LEDA)
 # column 7: uncertainty in inclination
@@ -14,4 +14,4 @@
 # Distances and uncertainties from Brent Groves' NED querying program.
 # Inclinations and PA from Maria's compilation
 # Radius from Leda
-ngc6946	308.7180150	60.1539150	7.72	0.32	33.0	NaN	243.0	NaN	5.74	0.05
+ngc3627, 170.0623508, 12.9915378, 11.3, 0.9, 62.0, NaN, 173.0, NaN, 5.12, 0.05

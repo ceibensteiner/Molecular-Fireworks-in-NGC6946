@@ -1,33 +1,31 @@
 """
-This routine generates a dictionary, similar to  the struct in idl.
-Several side functions are part of this routine.
-The original routine was wrirtten in idl (see create_database.pro)
+This routine generates a dictionary.
+Several side functions are part of this routine.The original routine
+was wrirtten in idl and translated to python by J. den Brok
 
 The output is a dictionary saved as an .npy file. To open it in a new python
 script use for example:
 
     > read_dictionary = np.load('datafile.npy',allow_pickle = True).item()
-    > ra_samp = read_dictionary["ra_deg"]
-    > dec_samp = read_dictionary["dec_deg"]
-    > intensity = np.nansum(read_dictionary["SPEC_VAL_CO21"], axis = 0)
+    > ra_samp   = read_dictionary["ra_deg"]
+    > dec_samp  = read_dictionary["dec_deg"]
+    > intensity = read_dictionary["INT_VAL_CO21"]
     > plt.scatter(ra_samp, dec_samp, c = intensity, marker = "h")
 
 MODIFICATION HISTORY
-    -   v1.0.1 16-22 October 2019: Conversion from IDL to Python
+    - v1.0.1 16-22 October 2019: Conversion from IDL to Python
         Minor changes implemented
-        ToDo:
-            - now can only read in (z,x,y) cubes, but should be flexible to
-              recognize (1,z,x,y) cubes as well
-
     - v1.1.1 26 October 2020: More stable version. Several bugs fixed.
-            - Used by whole Bonn group
+        Used by group lead by Frank Bigiel, Bonn
 
 """
-__author__ = "J. den Brok"
-__version__ = "v1.0.1"
-__email__ = "jdenbrok@astro.uni-bonn.de"
-__credits__ = ["A. Leroy ", "I. Beslic"]
+__author__  = "C. Eibensteiner"
+__version__ = "Molecular-Fireworks-in-NGC6946"
+__email__   = "eibensteiner@astro.uni-bonn.de"
+__credits__ = ["J. den Brok", "A. Leroy ", "I. Beslic", "E. Rosowlosky",
+               "F. Bigiel", "M.J. Jimenez-Donaire", "L. Neumann"]
 
+#-------------------------------------------------------------------------------
 
 import numpy as np
 import pandas as pd
@@ -46,23 +44,10 @@ from twod_header import *
 from making_axes import *
 from processing_spec import *
 
-#----------------------------------------------------------------------
-# Change these lines of code with correct directory and names
-#----------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 
 #------ <path to directory with the data files>
-#p="/Users/cosimaeibensteiner/Desktop/home/PhD/Project/NGC6946/3-PdBI-data/data/v2/working_data/"
-#p="/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/3-PdBI-data/data/v3-after-comments/"
 p = '/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/4-add-data/'
-
-#data_dir = str(p)+"PdBI-only-uv-matched-to-CO10/"
-#data_dir=str(p)+"PdBI-SSC-uv-matched-to-CO10/"
-#data_dir=str(p)+"PdBI-SSC-uv-matched-to-CO10/v3_032021/"
-
-#data_dir=str(p)+"PdBI-SSC-uv-matched-to-CO10/v4_032021/"
-#data_dir=str(p)+"PdBI-SSC/"
-#data_dir=str(p)+"PdBI-only/"
-#data_dir=str(p)+"PdBI-SSC-uv-matched-to-CO10-v4_032021/"
 data_dir=str(p)+"Cosima_M51/"
 print(data_dir)
 
@@ -71,33 +56,17 @@ print(data_dir)
 geom_file = "List_Files/geometry_m51.txt"
 
 # <filename of band file>
-#band_file = "List_Files/band_list.csv"
-band_file = "List_Files/band_list_m51.csv"
+band_file = "List_Files/band_list_empty.csv"
 
 #------ <filename of cube file>
-#cube_file = "List_Files/cube_list-uvmatched-2as.csv"
-#cube_file = "List_Files/cube_list-PdBIonly-SSC.csv"
-#cube_file = "List_Files/cube_list-PdBIonly.csv"
-#cube_file = "List_Files/cube_list-uvmatched.csv"
-#cube_file = "List_Files/cube_list-uvmatched-SSC.csv"
-
-#cube_file = "List_Files/cube_list-PdBIonly-aftercomments.csv"
-#cube_file = "List_Files/cube_list-uvmatched-aftercomments.csv"
-#cube_file = "List_Files/cube_list-PdBIonly-SSC-aftercomments.csv"
-cube_file = "List_Files/cube_list-m51.csv"
-
-
+cube_file = "List_Files/cube_list_m51.csv"
 
 #------ <filename of overlay or mask> #should be stored in data_dir
-#overlay_file = "ngc6946_co10.fits"
-#overlay_file = "ngc6946_co10-K.fits"
-#overlay_file = "ngc6946_co10-K-cube3.fits"
 overlay_file = "m51_hcn10-K_.fits"
-
 
 #------ <Output Directory for Dictionaries>
 out_dic = data_dir
-#"/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/3-PdBI-data/database/v3-after-comments/"
+#out_dic = '/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/5-first-paper/Skripte/2-After-PHANGS-Comments/1-Data_base/Output/'
 
 # Set the target resolution for all data in arcseconds
 target_res = 4.

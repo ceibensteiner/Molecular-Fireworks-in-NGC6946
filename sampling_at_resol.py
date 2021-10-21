@@ -94,12 +94,6 @@ def sample_at_res(in_data,
                                               quiet = True,
                                               perbeam = perbeam)
 
-        #data_speccube = SpectralCube(data=data, wcs = WCS(hdr))
-        #data_speccube.beam = radio_beam.Beam(major=current_bmaj*u.arcsec, minor=current_bmaj*u.arcsec, pa=0*u.deg)
-        #beam = radio_beam.Beam(major=target_res_as*u.arcsec, minor=target_res_as*u.arcsec, pa=0*u.deg)
-        #new_datacube = data_speccube.convolve_to(beam)
-        #data = np.array(new_datacube.unmasked_data[:,:,:])
-        #hdr_out = hdr
     else:
         print("[INFO]\t Already at target resolution.")
         hdr_out = copy.copy(hdr)
@@ -124,13 +118,14 @@ def sample_at_res(in_data,
 
         print("")
 
-        # Added by Cosi
+        # Added by C. Eibensteiner
         if save_fits:
             out_header = copy.copy(target_hdr)
             out_header["BMAJ"]=target_res_as/3600
             out_header["BMIN"]=target_res_as/3600
             out_header["LINE"]=line_name
-            fits.writeto(path_save_fits+galaxy+'_'+str(line_name)+'_{}as.fits'.format(target_res_as), data=data_out, header=out_header, overwrite=True)
+            fits.writeto(path_save_fits+galaxy+'_'+str(line_name)+'_{}as.fits'.format(target_res_as),
+            data=data_out, header=out_header, overwrite=True)
             print("[INFO]\t Convolved Fits file has been saved.")
 
     else:

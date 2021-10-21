@@ -1,0 +1,17 @@
+# Column 1: short name of SFR tracer;;;;
+# Column 2: description for database;;;;
+# Column 3: units;;;;
+# Column 4: extension;;;;
+# Column 5: path to files;;;;
+# Column 6: extension to uc file;;;;
+SFR_15Ghz;SFR_15Ghz;Msun/yr;_SFR_15GHz.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/5-first-paper/Skripte/2-After-PHANGS-Comments/4-SFR/;non_provided
+SFR_33Ghz;SFR_33Ghz;Msun/yr;_SFR_33GHz.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/5-first-paper/Skripte/2-After-PHANGS-Comments/4-SFR/;non_provided
+SFR_33Ghz_punc;SFR_33Ghz_punc;Msun/yr;_SFR_33GHz_punc.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/5-first-paper/Skripte/2-After-PHANGS-Comments/4-SFR/;non_provided
+SFR_15Ghz_kpc;SFR_15Ghz_kpc;Msun/yr/kpc/kpc;_SFR_15GHz_density_per_kpc.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/5-first-paper/Skripte/2-After-PHANGS-Comments/4-SFR/;non_provided
+SFR_33Ghz_kpc;SFR_33Ghz_kpc;Msun/yr/kpc/kpc;_SFR_33GHz_density_per_kpc.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/5-first-paper/Skripte/2-After-PHANGS-Comments/4-SFR/;non_provided
+SFR_33Ghz_kpc_punc;SFR_33Ghz_kpc_punc;Msun/yr/kpc/kpc;_SFR_33GHz_density_punc_per_kpc.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/5-first-paper/Skripte/2-After-PHANGS-Comments/4-SFR/;non_provided
+SFR_33Ghz_kpc_unc;SFR_33Ghz_kpc_unc;Msun/yr/kpc/kpc;_SFR_33GHz_density_per_kpc_unc.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/5-first-paper/Skripte/2-After-PHANGS-Comments/4-SFR/;non_provided
+SFR_33Ghz_pc;SFR_33Ghz_pc;Msun/yr/pc/pc;_SFR_33GHz_density_per_pc.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/5-first-paper/Skripte/2-After-PHANGS-Comments/4-SFR/;non_provided
+X_ray;X_ray_counts;counts;_broad_smooth3_ds9_ready.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/4-add-data/X-ray/;non_provided
+IR_8ym;IR_8ym;erg/s;_spitzer_irac_8ym_flux_ready_corr.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/4-add-data/;non_provided
+#SFR_ha_kpc;SFR_ha_kpc;M/yr/kpc;_SFR_Ha_perkpc.fits;/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/4-add-data/other/;non_provided
