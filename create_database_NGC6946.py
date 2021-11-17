@@ -1,7 +1,8 @@
 """
 This routine generates a dictionary.
 Several side functions are part of this routine.The original routine
-was wrirtten in idl and translated to python by J. den Brok
+was wrirtten in idl. 
+It was translated to python by J. den Brok
 
 The output is a dictionary saved as an .npy file. To open it in a new python
 script use for example:
@@ -17,6 +18,7 @@ MODIFICATION HISTORY
         Minor changes implemented
     - v1.1.1 26 October 2020: More stable version. Several bugs fixed.
         Used by group lead by Frank Bigiel, Bonn
+    - version: Molecular-Fireworks-in-NGC6946 (for paper: link)
 
 """
 __author__  = "C. Eibensteiner"
