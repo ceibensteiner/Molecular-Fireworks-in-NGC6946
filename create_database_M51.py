@@ -1,22 +1,6 @@
 """
-This routine generates a dictionary.
-Several side functions are part of this routine.The original routine
-was wrirtten in idl and translated to python by J. den Brok
 
-The output is a dictionary saved as an .npy file. To open it in a new python
-script use for example:
-
-    > read_dictionary = np.load('datafile.npy',allow_pickle = True).item()
-    > ra_samp   = read_dictionary["ra_deg"]
-    > dec_samp  = read_dictionary["dec_deg"]
-    > intensity = read_dictionary["INT_VAL_CO21"]
-    > plt.scatter(ra_samp, dec_samp, c = intensity, marker = "h")
-
-MODIFICATION HISTORY
-    - v1.0.1 16-22 October 2019: Conversion from IDL to Python
-        Minor changes implemented
-    - v1.1.1 26 October 2020: More stable version. Several bugs fixed.
-        Used by group lead by Frank Bigiel, Bonn
+see "create_database_NGC6946.py"
 
 """
 __author__  = "C. Eibensteiner"
