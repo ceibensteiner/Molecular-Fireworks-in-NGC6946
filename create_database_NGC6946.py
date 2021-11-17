@@ -81,21 +81,21 @@ out_dic = '/Users/cosimaeibensteiner/Desktop/home/PhD/1-Project/NGC6946/5-first-
 # Set the target resolution for all data in arcseconds
 target_res = 4.
 
-
-#!!!!!!!!!!!!!Advanced
-NAXIS_shuff = 200
-CDELT_SHUFF = 4000.  #m/s
-
+resolution = 'angular'
 """
 angular: use target_res in as
 physical: convert target_res (in pc) to as
 native: use the angular resolution of the overlay image
 """
-resolution = 'angular'
 spacing_per_beam = 2.0 #2.0 = halfbeam sized
 
 # Save the convolved cubes & bands
 save_fits = True
+
+#!!!!!!!!!!!!!Advanced
+NAXIS_shuff = 200
+CDELT_SHUFF = 4000.  #m/s
+
 
 #---------------------------------------------------------------
 
