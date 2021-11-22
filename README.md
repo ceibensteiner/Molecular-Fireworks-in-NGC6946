@@ -1,4 +1,4 @@
-## This routine is used by group lead by Frank Bigiel in Bonn. Several modules have been created by A. Leroy and E. Rosowlosky (written in idl). J. den Brok together with I. Beslic translated it to python; 
+## This routine is used by the group lead by Frank Bigiel in Bonn. Several modules have been created by A. Leroy and E. Rosowlosky (written in idl). J. den Brok together with I. Beslic translated it to python; 
 
 __author__  = "C. Eibensteiner"
 
