@@ -17,7 +17,7 @@ MODIFICATION HISTORY
 * v1.1.1 26 October 2020: More stable version. Several bugs fixed.
         Additional scripts and functions (J. den Brok, I. Beslic, C.Eibensteiner, L. Neumann).
         Used by group lead by Frank Bigiel, Bonn
-* version: Molecular-Fireworks-in-NGC6946 (for paper: link)
+* version: Molecular-Fireworks-in-NGC6946 (for paper: https://arxiv.org/abs/2201.02209)
 
 
 # Generating a database
