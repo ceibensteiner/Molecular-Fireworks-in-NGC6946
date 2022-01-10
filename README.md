@@ -22,7 +22,7 @@ MODIFICATION HISTORY
 
 # Generating a database
 
-This repository contains the python scripts that sets up 3 python dictionaries which have been used in this paper: link. 
+This repository contains the python scripts that sets up 3 python dictionaries which have been used in this paper: https://arxiv.org/abs/2201.02209. 
 The main file is the `create_database_NGC6946.py` -- that creates a dictornary which contains: 
 
 *  The fits files that have been defined in the `List_Files` directory in the `band_list_ngc6946.csv` and the `cube_list_ngc6946.csv` files.
