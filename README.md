@@ -1,10 +1,8 @@
 ## This routine is used by the group lead by Frank Bigiel in Bonn. Several modules have been created by Adam Leroy and Erik Rosowlosky (written in idl). J. den Brok together with I. Beslic translated it to python; 
 
-__author__  = "C. Eibensteiner"
-
 __version__ = "Molecular-Fireworks-in-NGC6946"
-for the paper: link
-
+for the paper: https://arxiv.org/abs/2201.02209
+__author__  = "C. Eibensteiner"
 __email__   = "eibensteiner@astro.uni-bonn.de"
 
 __credits__ = ["J. den Brok", "A. Leroy ", "I. Beslic", "E. Rosowlosky",
