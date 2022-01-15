@@ -6,6 +6,7 @@ Jakob den Brok together with Ivana Beslic translated it to python;
 
 __version__ = "Molecular-Fireworks-in-NGC6946"
 for the paper: https://arxiv.org/abs/2201.02209
+(We plan to make the data presented in this paper public via the PHANGS CADC repository in the future)
 
 __author__  = "C. Eibensteiner"
 
@@ -13,6 +14,7 @@ __email__   = "eibensteiner@astro.uni-bonn.de"
 
 __credits__ = ["J. den Brok", "A. Leroy ", "I. Beslic", "E. Rosowlosky",
                "F. Bigiel", "M.J. Jimenez-Donaire", "L. Neumann", "A. T. Barnes", "J. Puschnig"]
+               
                
 
 MODIFICATION HISTORY
