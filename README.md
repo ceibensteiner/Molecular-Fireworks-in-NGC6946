@@ -1,4 +1,8 @@
-## This routine is used by the group lead by Frank Bigiel in Bonn. Several modules have been created by Adam Leroy and Erik Rosowlosky (written in idl). J. den Brok together with I. Beslic translated it to python; 
+# Database for ngc6946
+
+This routine is used by the group lead by Frank Bigiel in Bonn. 
+Several modules have been created by Adam Leroy and Erik Rosowlosky (written in idl). 
+Jakob den Brok together with Ivana Beslic translated it to python;
 
 __version__ = "Molecular-Fireworks-in-NGC6946"
 for the paper: https://arxiv.org/abs/2201.02209
