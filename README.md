@@ -1,4 +1,4 @@
-# Database for "A 2-3 mm high-resolution molecular line survey towards the centre of the nearby spiral galaxy NGC 6946" https://arxiv.org/abs/2201.02209
+# Generating a Database for "A 2-3 mm high-resolution molecular line survey towards the centre of the nearby spiral galaxy NGC 6946" https://arxiv.org/abs/2201.02209
 
 This routine is used by the group lead by Frank Bigiel in Bonn. 
 Several modules have been created by Adam Leroy and Erik Rosowlosky (written in idl). 
